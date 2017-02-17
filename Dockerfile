@@ -2,9 +2,9 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.1.3
+ENV VERSION=0.9.4
 
-RUN gem install fUnit --version ${VERSION} --no-format-exec
+RUN gem install funit --version ${VERSION} --no-format-exec
 
 WORKDIR /tmp
 

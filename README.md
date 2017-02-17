@@ -1,10 +1,10 @@
-[![Docker pulls](https://img.shields.io/docker/pulls/rubygem/fUnit.svg)](https://hub.docker.com/r/rubygem/fUnit/)
-[![Docker Build](https://img.shields.io/docker/automated/rubygem/fUnit.svg)](https://hub.docker.com/r/rubygem/fUnit/)
-[![Latest Tag](https://img.shields.io/github/tag/docker-rubygem/fUnit.svg)](https://hub.docker.com/r/rubygem/fUnit/)
-[![Gem Downloads](https://img.shields.io/gem/dt/fUnit.svg)](https://rubygems.org/gems/fUnit/)
-# fUnit
+[![Docker pulls](https://img.shields.io/docker/pulls/rubygem/funit.svg)](https://hub.docker.com/r/rubygem/funit/)
+[![Docker Build](https://img.shields.io/docker/automated/rubygem/funit.svg)](https://hub.docker.com/r/rubygem/funit/)
+[![Latest Tag](https://img.shields.io/github/tag/docker-rubygem/funit.svg)](https://hub.docker.com/r/rubygem/funit/)
+[![Gem Downloads](https://img.shields.io/gem/dt/funit.svg)](https://rubygems.org/gems/funit/)
+# funit
 
-Auto-Generated Docker image for fUnit to allow simple usage without installation.
+Auto-Generated Docker image for funit to allow simple usage without installation.
 It is in sync with the original gem.
 
 This allows to use a specific version of your favorite gem and ensures that this image will be supported in future.
@@ -17,11 +17,11 @@ It lets you use Ruby Tools without the need to install ruby on your machine.
 
 Usage via file system:
 
-`docker run -v $(pwd):/work -ti docker-gems/fUnit`
+`docker run -v $(pwd):/work -ti docker-gems/funit`
 
 Usage via Pipe:
 
-`echo "test" | docker run -ti docker-gems/fUnit`
+`echo "test" | docker run -ti docker-gems/funit`
 
 It depends on your specific use case how your want to use it.
 
@@ -31,11 +31,11 @@ For extension, it could be used as base image.
 
 So instead of struggeling with the installation of a gem, just write
 
-`FROM docker-gems/fUnit`
+`FROM docker-gems/funit`
 
 Then add the customization.
 
 ## References
 
  - [Overview over other rubygem docker images](https://github.com/thinkbot/docker-rubygem)
- - [Gem](https://rubygems.org/gems/fUnit/)
+ - [Gem](https://rubygems.org/gems/funit/)
